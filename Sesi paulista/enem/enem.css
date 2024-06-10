@@ -1,0 +1,116 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-optical-sizing: auto;
+    
+}
+h1{
+    color: black;
+    font-size: 40px;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+.corpo-de-texto{
+    color: #000000;
+    /* margin-left: 30px;
+    margin-right: 670px;
+    margin-top: 60px; */
+    text-align: justify;
+    margin: 30px;
+}
+button{
+    background-color:#36a0a3;
+    border: solid 1px #ffffff;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #2f7f7f;
+}
+.retangulo-azul-escuro{
+    background-color: #36a0a3;
+    padding: 40px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+.botões{
+    margin-left: 75px; 
+}
+.retangulo-azul{
+    background-color:#5CE1E6;
+    padding: 40px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+.texto-branco{
+    color: white;
+    margin-left: 80px; 
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+}
+.corpo{
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.quadrados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quadrado p{
+    text-align: center;
+}
+.foto{
+    position: relative;
+    overflow: hidden;
+    height: 250px;
+    width: 250px;
+    margin: 30px;
+    border: 10px solid #36a0a3;
+}
+.foto img{
+    max-width: 100%;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.foto:hover img{
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.img{
+    display: flex;
+    float: right;
+}
+#secao1{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    max-width: 90%;
+    align-items: center;
+}
+
+#secao2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+
+}
